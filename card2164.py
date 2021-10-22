@@ -23,8 +23,6 @@ n = sys.stdin.readline()
 
 deque_list = deque([i for i in range(1, int(n)+1)])
 
-print(deque_list)
-
 while(len(deque_list)>1):
     deque_list.popleft()
     deque_list.rotate(-1)
