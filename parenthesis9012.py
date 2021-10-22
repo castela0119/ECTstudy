@@ -1,6 +1,6 @@
 n = int(input())                                    # 테스트 케이스 n
 
-for _ in range(n):                                  # 테스트 케이스 b
+for _ in range(n):                                  # 테스트 케이스 n번 반복
     ps = list(input())                              # 괄호 문자열을 입력합니다. ex. (())()
     
     stack = []                                      # 빈 list를 만들어 줍니다.
@@ -27,5 +27,3 @@ for _ in range(n):                                  # 테스트 케이스 b
 
     elif(len(stack) > 0 and cnt == len(ps)):        # 반복문을 다 돌았고 stack 에 '(' 남아있다면
         print('NO')                                 # NO 를 출력합니다.
-
-# ( ( ) ) ) 
