@@ -30,5 +30,5 @@ for i in range(n):
 res = heapsort(arr)
 print(res)
 
-for i in range(n):
-    print(res[i])
+#for i in range(n):
+#    print(res[i])

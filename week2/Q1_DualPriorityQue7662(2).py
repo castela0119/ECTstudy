@@ -4,7 +4,7 @@
 heap_push 는 이진 트리 구조를 유지시켜 주면서 push 해줍니다.
 heap_pop 은 이진 트리 구조를 유지시켜 주면서 pop 해줍니다.
 
-왜? min_heap, max_heap 을 이용해줘야 할까?
+왜? min_heap, max_heap 을 이용해줘야 할까? ->
 
 왜? visit 변수를 써서 해당 index(key) 의 True, False 를 확인해 줄까?
 
